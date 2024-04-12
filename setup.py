@@ -24,6 +24,7 @@ setup(
     entry_points={
         'console_scripts': [
             'sample_node = ros2_control_supervisor.sample_node:main',
+            'lifecycle_node = ros2_control_supervisor.lifecycle_node:main',
             'controller_supervisor = ros2_control_supervisor.controller_supervisor:main'
         ],
     },
